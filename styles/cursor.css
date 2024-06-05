@@ -1,0 +1,31 @@
+body {
+	cursor: none;
+}
+
+a {
+    cursor: none;
+}
+
+.cursor {
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #F5DEDB;
+    /*mix-blend-mode: difference;*/
+    pointer-events: none;
+    transform: translate(-50%, -50%);
+    transition: width 0.3s, height 0.3s, background-color 0.3s;
+    animation: glow 1s infinite alternate;
+    z-index: 6969;
+    visibility: visible;
+}
+
+@keyframes glow {
+    0% {
+        box-shadow: 0 0 5px 2.5px rgba(255, 215, 0, 0.8);
+    }
+    100% {
+        box-shadow: 0 0 10px 5px rgba(255, 215, 0, 0.8);
+    }
+}

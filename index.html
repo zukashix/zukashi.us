@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Home | zukashi.us</title>
+    <meta name="description" content="Zukashi's Homepage">
+    <meta property="og:title" content="Home | zukashi.us">
+    <meta property="og:description" content="Zukashi's Homepage">
+    <meta property="og:image" content="logo.png">
+    <meta property="og:url" content="https://zukashi.us/">
+
+    <link rel="stylesheet" href="styles/index-styles.css">
+    <link rel="stylesheet" href="styles/cursor.css">
+    <link rel="stylesheet" href="styles/anim2.css">
+    <link rel="stylesheet" href="styles/topbar.css">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Pacifico&family=Open+Sans:wght@400&display=swap">
+
+</head>
+<body>
+    <div class="wrapper">
+        <!--<canvas id="effect"></canvas> -->
+        <div class="box">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+    
+    <div class="cursor" id="customcursor"></div>
+
+    <div class="topbar">
+        <div class="topbar-left">
+            <a href="index.html" class="home-link"><i class="fas fa-home"></i></a>
+        </div>
+        <div class="topbar-right">
+            <a href="about.html">About</a>
+            <a href="projects.html">Projects</a>
+            <a href="webmap.html">WebMap</a>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="card">
+            <h1>Divyanshu "Zukashi" Shekhar</h1>
+            <p>Tech Enthusiast | Casual Gamer | Cheese is life!</p>
+            <div class="social-icons">
+                <a href="https://www.linkedin.com/in/zukashi/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="mailto:zukashi_ms@outlook.in" target="_blank"><i class="fas fa-envelope"></i></a>
+                <a href="https://github.com/zukashix" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="#" id="discord-icon"><i class="fab fa-discord"></i></a>
+            </div>
+        </div>
+    </div>
+
+    <div id="discord-popup" class="popup">
+        <div class="popup-content">
+            <span class="close" id="close-popup">&times;</span>
+            <i class="fab fa-discord"></i>
+            <p>@zukashix</p>
+        </div>
+    </div>
+
+    <script>
+        document.getElementById('discord-icon').addEventListener('click', function() {
+        document.getElementById('discord-popup').style.opacity = 1;
+        document.getElementById('discord-popup').style.visibility = 'visible';
+        });
+
+        document.getElementById('close-popup').addEventListener('click', function() {
+        document.getElementById('discord-popup').style.opacity = 0;
+        document.getElementById('discord-popup').style.visibility = 'hidden';
+        });
+    </script>
+    
+    <script src="scripts/cursor.js"></script>
+    <!--<script src="scripts/anim.js"></script>-->
+</body>
+</html>
