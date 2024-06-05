@@ -4,12 +4,12 @@ This website contains information about me, my work and my skills. It's a websit
 
 # Check it out
 
-[https://zukashi.us](Go Go Go!!)
+[Go Go Go!!](https://zukashi.us)
 
 # External resources & credits
 
 Most of the external resources have been modified for compatibility and personal preference
 
-→ [https://www.divinectorweb.com/2024/02/custom-cursor-with-glowing-effect.html](Custom Cursor)
-→ [https://www.youtube.com/watch?v=qx7pSLjLNQA](Background Animation)
+→ [Custom Cursor](https://www.divinectorweb.com/2024/02/custom-cursor-with-glowing-effect.html)
+→ [Background Animation](https://www.youtube.com/watch?v=qx7pSLjLNQA)
 
