@@ -10,6 +10,6 @@ This website contains information about me, my work and my skills. It's a websit
 
 Most of the external resources have been modified for compatibility and personal preference
 
-→ [Custom Cursor](https://www.divinectorweb.com/2024/02/custom-cursor-with-glowing-effect.html)
+→ [Custom Cursor](https://www.divinectorweb.com/2024/02/custom-cursor-with-glowing-effect.html) <br>
 → [Background Animation](https://www.youtube.com/watch?v=qx7pSLjLNQA)
 
